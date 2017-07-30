@@ -1,0 +1,601 @@
+/* Breadcrumbs  */
+
+.breadcrumb_frame {
+    margin-top: 88px;
+    position: relative;
+}
+
+.breadcrumb_frame .breadcrumb {
+    margin-bottom: 0px;
+    background-color: #e9e2df;
+    border-radius: 0;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 15px;
+    font-size: 20px;
+    color: #999;
+}
+
+.breadcrumb_frame .breadcrumb .active {
+    color: #720079;
+}
+
+.breadcrumb_frame .flo {
+    float: right;
+    margin-top: -45px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .breadcrumb_frame .breadcrumb {
+        font-size: 15px;
+    }
+}
+
+.page_banner {
+    margin-bottom: 75px;
+    width: 100%;
+    max-height: 160px;
+    overflow: hidden;
+}
+
+.page_banner img {
+    width: 100%;
+    min-width: 480px;
+}
+/*   main  */
+
+.main {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.page_primary {
+    width: 72%;
+    float: right;
+}
+
+.page_secondary {
+    width: 28%;
+    min-width: 190px;
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        margin-top: -40px;
+    }
+    .page_primary {
+        width: 98%;
+        margin: 0 auto 15px;
+        float: none;
+    }
+    .page_secondary {
+        width: 98%;
+        margin: 0 auto 15px;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        margin-top: -50px;
+    }
+}
+/*  sub_menu  */
+
+.sub_menu {
+    width: 190px;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.sub_menu li {
+    list-style: none;
+}
+
+.sub_menu li a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+    background-color: #f2edef;
+}
+
+.sub_menu li a:hover,
+.sub_menu li.active a {
+    text-decoration: none;
+    background-color: #e9dfdb;
+}
+/*  form  */
+
+.formsheet {
+    width: 190px;
+    background-color: #79067f;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .formsheet .col-lg-2 {
+        width: auto;
+    }
+    .formsheet .col-lg-10 {
+        width: auto;
+    }
+    .formsheet .sent_btn .col-lg-10 {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sub_menu {
+        display: none;
+    }
+    .formsheet {
+        width: 100%;
+    }
+}
+
+.formsheet h3 {
+    font-size: 15px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.formsheet h3 span {
+    font-size: 13px;
+    display: block;
+}
+
+.form-horizontal {
+    padding: 0 15px;
+}
+
+.form-horizontal label {
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.page_primary h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0 0 20px;
+    padding: 3px 10px;
+    border-left: 3px solid #7E1885;
+}
+
+.page_primary h3 {
+    font-size: 20px;
+    color: #7E1885;
+    letter-spacing: 0;
+}
+
+.page_pic {
+	margin:0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.s_pic{margin-top:50px;width:77%;}
+
+.page_pic figcaption{
+    margin-bottom: 20px;
+	margin-top: 40px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bolder;
+}
+
+.page_pic img {
+    width: 100%;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.main_content .class_pic {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.main_content .class_pic img {
+    width: 100%;
+    border-radius: 60px;
+}
+
+.about_class h3 {
+    clear: both;
+    margin: 25px 0;
+}
+
+.main_content p {
+    line-height: 1.7em;
+	text-align:justify;
+	text-indent:2em; 
+	word-break: normal;
+	white-space:pre-wrap;
+}
+
+.content_list li {
+    list-style: decimal;
+    margin-bottom: 10px;
+}
+/*  team  */
+
+.teacher {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #dedede;
+}
+
+.teacher_img {
+    margin-bottom: 15px;
+}
+
+.teacher_img img {/*專業團隊*/
+    width: 100%;
+    border-radius: 50%;
+}
+
+.teacher_name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8dad56;
+}
+
+.teacher_info {
+    margin-top: 8px;
+}
+
+.teacher_info dt {
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #f8971e;
+}
+
+.teacher_info dd {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .teacher .col-sm-9 {
+        width: 65%;
+        float: left;
+    }
+    .teacher .col-sm-3 {
+        width: 35%;
+        float: left;
+    }
+}
+/*  school  */
+
+.school_con .school li {
+    list-style-type: none;
+    width: 98%;
+    height: auto;
+    min-height: 130px;
+    margin-right: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    position: relative;
+}
+
+.school_con .school li a {
+    display: block;
+    width: auto;
+    min-height: 130px;
+    color: #666;
+}
+
+.school_con .school li a .school_hover img {
+    border-radius: 60px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.school_con .school li a:hover .school_hover img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.school_con .school li a .school_show img {
+    border-radius: 60px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+.school_con .school li a .school_title {
+    display: inline-block;
+    color: #8dad56;
+    font-size: 18px;
+    margin: 10px 0 0 135px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.school_con .school li a .school_content {
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 0 0 135px;
+}
+
+.school_con .school li a:hover {
+    text-decoration: none;
+}
+
+.school_con .school li a:hover .school_title {
+    color: #f8971e;
+}
+
+@media screen and (max-width: 550px) {
+    .school_con .school li {
+        width: 100%;
+        margin: 15px auto 15px -20px;
+    }
+    .school_con .school li a .school_show img {
+        width: 110px;
+        height: 110px;
+        border-radius: 55px;
+    }
+    .school_con .school li a .school_hover img {
+        width: 110px;
+        height: 110px;
+    }
+    .school_con .school li a .school_content {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .school_con h2 {
+        font-size: 22px;
+    }
+}
+
+.youtubecontent {
+    position: relative;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.youtubecontent {
+    padding-bottom: 56.25%;
+    margin-bottom: 15px;
+}
+
+.youtubecontent iframe,
+.youtubecontent object,
+.youtubecontent embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about_class_page .pull-right {
+    margin-top: -53px;
+    margin-bottom: 30px;
+}
+
+.about_class_page h3 {
+    background-color: #f3eff1;
+    font-size: 20px;
+    color: #811387;
+}
+
+.about_class_page h3 span {
+    display: inline-block;
+    background-color: #ab9eee;
+    text-align: center;
+    width: 120px;
+    padding: 10px 15px;
+    color: #fff;
+    margin-right: 10px
+}
+
+.about_class_page h3 span.c2 {
+    background-color: #EEC10C;
+}
+
+.about_class_page h3 span.c3 {
+    background-color: #B286C3;
+}
+
+.about_class_page h3 span.c4 {
+    background-color: #9CD028;
+}
+
+.about_class_page h3 span.c5 {
+    background-color: #F78723;
+}
+
+.about_class_page h3 span.c6 {
+    background-color: #36C2DB;
+}
+
+.about_class_page h3 span.c7 {
+    background-color: #4BC490;
+}
+
+@media screen and (max-width: 480px) {
+    .about_class_page .pull-right {
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+    .about_class_page h3 {
+        font-size: 15px;
+    }
+    .about_class_page h3 span {
+        width: 100px;
+    }
+}
+
+.page_pic a{
+    display: none;
+}
+.page_pic a:first-child {
+    display: block;
+}
+
+/* collapse  */
+
+.panel-group .panel {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+    background-color: transparent;
+    padding: 0;
+}
+
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+    border: none;
+}
+
+.panel-group .panel h3.panel-title {
+    margin: 7px 0;
+}
+
+.panel-title > a {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.panel-group .panel p {
+    color: #666;
+}
+
+.panel-group .panel .ct {
+    font-size: 20px;
+    color: #000;
+}
+
+.panel-body {
+    padding: 15px 0;
+}
+.panel-body .pull-right{
+    margin-top:inherit;
+    margin-bottom: 15px;
+}
+.class_57 .col-xs-5 {
+        width: 40%;
+        height: 235px;
+        padding: 0 5px 0 0;
+        overflow: hidden;
+    }
+    .class_57 .col-xs-7 {
+        width: 60%;
+        height: 235px;
+        padding: 0 0 0 5px;
+    }
+    .class_57 .col-xs-7 iframe {
+        width: 100%;
+        height: 235px;
+    }
+    .class_57 .col-xs-5 img {
+        width: 100%;
+        height: 100%;
+    }
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    .class_57 .col-xs-5,
+    .class_57 .col-xs-7,
+    .class_57 .col-xs-7 iframe {        
+        height: 220px;
+    }   
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .class_57 .col-xs-5,
+    .class_57 .col-xs-7,
+    .class_57 .col-xs-7 iframe {        
+        height: 210px;
+    }   
+}
+
+@media screen and (min-width: 365px) and (max-width: 480px) {
+    .class_57 .col-xs-5 {
+        width: 100%;
+        height: 270px;
+        padding: 0;
+        margin-bottom: 10px
+    }
+    .class_57 .col-xs-7 {
+        width: 100%;
+        height: 270px;
+        padding: 0;
+    }
+    .class_57 .col-xs-7 iframe {        
+        height: 270px;
+    }
+    .class_57 .col-xs-5 img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 364px) {
+    .class_57 .col-xs-5 {
+        width: 100%;
+        height: 230px;
+        padding: 0;
+        margin-bottom: 10px
+    }
+    .class_57 .col-xs-7 {
+        width: 100%;
+        height: 230px;
+        padding: 0;
+    }
+    .class_57 .col-xs-7 iframe {        
+        height: 230px;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
